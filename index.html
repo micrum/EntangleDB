@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +10,28 @@
 
 <body>
     <header>
-        <h1>EntangleDB</h1>
-        <p>A Quantum Database for Next-Generation Data Management</p>
+        <nav class="navbar">
+            <h1 class="logo">EntangleDB</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#use-cases">Use Cases</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>EntangleDB</h1>
+            <p>A Quantum Database for Next-Generation Data Management</p>
+        </div>
     </header>
 
-    <div class="container">
-        <section class="section">
+    <main class="container">
+        <section class="section" id="about">
             <h2>About EntangleDB</h2>
             <p>EntangleDB is a high-performance quantum database designed to accelerate data processing by up to 100 times. It leverages recent quantum computing breakthroughs such as deferred execution, improved logical qubits, and quantum state representation to handle complex data operations, making it ideal for AI training, cybersecurity, and gaming applications.</p>
         </section>
 
-        <section class="section">
+        <section class="section" id="features">
             <h2>Key Features</h2>
             <div class="features">
                 <div class="feature-item">
@@ -39,7 +49,7 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="use-cases">
             <h2>Use Cases</h2>
             <p>EntangleDB is built to address the challenges of next-generation applications:</p>
             <ul>
@@ -49,15 +59,14 @@
             </ul>
         </section>
 
-        <section class="cta">
+        <section class="cta" id="contact">
             <h2>Learn more</h2>
             <button onclick="window.location.href='mailto:info@entangledb.com'">Contact Us</button>
         </section>
-    </div>
+    </main>
 
     <footer>
         <p>&copy; 2024 EntangleDB. All rights reserved.</p>
     </footer>
 </body>
-
 </html>
