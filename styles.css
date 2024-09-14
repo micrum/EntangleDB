@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #4a90e2;
+    background-color: #222222;
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -84,7 +84,7 @@ header {
 }
 
 .cta button {
-    background-color: #4a90e2;
+    background-color: #222222;
     color: white;
     border: none;
     padding: 1rem 2rem;
